@@ -1,0 +1,4 @@
+@page "/podcastguests"
+@inject HttpClient Http
+<h1 class="text-center">Guests</h1>
+

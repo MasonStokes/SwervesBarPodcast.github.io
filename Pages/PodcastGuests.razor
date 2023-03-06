@@ -1,0 +1,67 @@
+@page "/podcastguests"
+@inject HttpClient Http
+<h1 class="text-center">Podcast Guests</h1>
+@if (guests == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    @foreach (var guest in guests)
+    {
+        <div class="row">
+            <div class="col-lg col-md col-sm right">
+                <h2>@guest.name</h2><br>
+                <p>Check out the episode <a href=@guest.episode target="_top">here.</a></p>
+                @if (guest.twitter != "")
+                    {
+                        <p>Check out their twitter <a href=@guest.twitter target="_top">here.</a></p>
+                    }
+                    else
+                    {
+                        <p><b>Twitter: </b>Information coming soon...</p>
+                    }
+                    @if (guest.website != "")
+                    {
+                        <p>Check out their website <a href=@guest.twitter target="_top">here.</a></p>
+
+                    }
+                    else
+                    {
+                        <p><b>Website: </b>Information coming soon...</p>
+                    }
+                    @if (guest.twitch != "")
+                    {
+                        <p>Check out their twitch <a href=@guest.twitch target="_top">here.</a></p>
+
+                    }
+                    else
+                    {
+                        <p><b>Twitch: </b>Information coming soon...</p>
+                    }
+            </div>
+        </div>
+    }
+}
+
+@code {
+    private Guest[] guests;
+
+    protected override async Task OnInitializedAsync()
+    {
+        guests = await Http.GetFromJsonAsync<Guest[]>("guests/podcast)_guests.json");
+    }
+
+    public class Guest
+    {
+        public int guestId { get; set; }
+        public string name { get; set; }
+        public string episode { get; set; }
+        public string twitter { get; set; }
+        public string website { get; set; }
+        public string twitch { get; set; }
+
+
+    }
+}

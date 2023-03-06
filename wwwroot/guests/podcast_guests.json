@@ -1,0 +1,74 @@
+[
+    {
+        "guestId": 1,
+        "name": "Hexamis",
+        "episode": "https://youtu.be/M-i0UR7Kth0",
+        "twitter": "https://twitter.com/HexamisArt",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 2,
+        "name": "V",
+        "episode": "https://youtu.be/se5v_CnqeB0",
+        "twitter": "https://twitter.com/megapurrv",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 3,
+        "name": "Lapis",
+        "episode": "https://youtu.be/A8ORxR_SArc",
+        "twitter": "https://twitter.com/LapisDragon01?s=20",
+        "website": "",
+        "twitch":"https://www.twitch.tv/lapisdragon001"
+    },
+    {
+        "guestId": 4,
+        "name": "Highbeam",
+        "episode": "https://youtu.be/wI3d5SvbkGY",
+        "twitter": "https://twitter.com/highbeamtf",
+        "website": "",
+        "twitch":"https://www.twitch.tv/highbeamtf"
+    },
+    {
+        "guestId": 5,
+        "name": "Celestedoodles",
+        "episode": "https://youtu.be/bQrUln6chkM",
+        "twitter": "https://twitter.com/celestedoodles?s=20",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 6,
+        "name": "Selt",
+        "episode": "https://youtu.be/TODDgtoeI_g",
+        "twitter": "https://twitter.com/AZAutobots?s=20",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 7,
+        "name": "Cass",
+        "episode": "https://youtu.be/9d4iCADAbj4",
+        "twitter": "https://twitter.com/cassidyxns?s=20",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 8,
+        "name": "Lita",
+        "episode": "https://youtu.be/6QQX_lnhzo4",
+        "twitter": "https://twitter.com/lalalita____?s=20",
+        "website": "",
+        "twitch":""
+    },
+    {
+        "guestId": 9,
+        "name": "Joe",
+        "episode": "https://youtu.be/FDn7tWSLauc",
+        "twitter": "",
+        "website": "https://www.optimusishere.com/ourmission",
+        "twitch":""
+    }
+]

@@ -1,36 +1,59 @@
-@page "/crossOver"
+@page "/crossOvers"
 @inject HttpClient Http
 
-<h1 class="page-header">Cross Overs</h1>
-<div class="carousel-container crossover">
-  <div id="comicCarouselCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="https://youtu.be/xfDPY25lrJA?list=PLLmXgUDj_Nw9GfnEf9KBCpDdc-73b0tO7"><img src="/crossover-images/GhostbusterCrossoverThumbnail.png" class="d-block w-100" alt="Ghostbusters"></a>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Transformers Ghostbusters</h5>
-        <p>Click The Image To Watch!</p>  
-      </div>
-    </div>
-    <div class="carousel-item">
-      <a href="https://youtu.be/fRVn_jqWbP4?list=PLLmXgUDj_Nw9GfnEf9KBCpDdc-73b0tO7"<img src="/crossover-images/TerminatorCrossOverThumbnail.jpg" class="d-block w-100" alt="Terminator"></a>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Transformers Vs The Terminator</h5>
-        <p>Click The Image To Watch!</p>     
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#comicCarouselCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
+<h1 class="page-header">Cross Over Comics</h1>
+@if (crossovers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+    @foreach (var crossover in crossovers)
+    {
+        <div class="row">
+            <div class="col-lg col-md col-sm right">
+                <h2>@crossover.title</h2><br>
+                <!--<p>Check out the episode <a href=@guest.episode target="_top">here.</a></p>-->
+                @if (crossover.youtubelink != "")
+                {
+                    <p>Check the episode <a href=@crossover.youtubelink target="_top">here.</a></p>
+                }
+                else
+                {
+                    //<p><b>Episode Link: </b>Information coming soon...</p>
+                }
+                @if (crossover.releasedate != "")
+                {
+                    <p>Episode release: @crossover.youtubelink</p>
+
+                }
+                else
+                {
+                    //<p><b>Episode release date: </b>Information coming soon...</p>
+                }
+            </div>
+        </div>
+    }
+}
+
+
+
+
+@code {
+    private Crossover[] crossovers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        crossovers = await Http.GetFromJsonAsync<Crossover[]>("crossover/crossovers.json");
+    }
+
+    public class Crossover
+    {
+        public int episode { get; set; }
+        public string title { get; set; }
+        public string releasedate { get; set; }
+        public string youtubelink { get; set; }
+    }
+}
+
