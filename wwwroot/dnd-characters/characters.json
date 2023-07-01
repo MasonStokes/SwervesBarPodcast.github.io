@@ -6,7 +6,7 @@
     "Class": "Weapon Specialist",
     "Affiliation": "Mercenary",
     "Description": "Eightwheeler is looking for the killer of his crew in order to take revenge while trying to fix the wrongs he's made. He is a weapon specialist, leader type, he is 22ft tall. He follows solus prime.",
-    "Campaigns": "Rise of the World Killers",
+    "Campaigns": [{"Name":"Rise of the World Killers"}],
     "Image": "/images/Eightwheeler_ArtByHexamis.png",
     "Art_By": "Hexamis"
   },
@@ -17,7 +17,7 @@
     "Class": "Weapon Specialist",
     "Affiliation": "Mercenary",
     "Description": "After finding the killer of his team and confronting them, Stratostorm suffered heavy injuries and had to be given a new body. After obtaining his new body he made a vow to get stronger and bring the killer down even if it means he needs to sacrifice himself so others can live free.",
-    "Campaigns": "Rise of the World Killers",
+    "Campaigns": [{"Name":"Rise of the World Killers"}],
     "Image": "/images/stratoPoster.png",
     "Art_By": "Hexamis"
   },
@@ -28,7 +28,7 @@
     "Class": "Scavenger",
     "Affiliation": "Decepticon",
     "Description": "Grease is a repo bot mob boss who wants to gain power amongst the decepticon ranks so he can expand his business. Type Mini-con, class scavenger, size 5ft tall, religion amalgamous prime.",
-    "Campaigns": "Rise of the World Killers",
+    "Campaigns": [{"Name" : "Rise Of The World Killers"}, {"Name":"Eons"}],
     "Image": "/images/grease.png",
     "Art_By": "Hexamis"
   },
@@ -39,7 +39,7 @@
     "Class": "Mutant",
     "Affiliation": "Decepticon/Insecticon",
     "Description": "Smolder is a 5 foot tall Insecticon who idolizes Starscream. His dream was to one day become a Seeker, but with his more animal-like alt. mode, such a dream was unrealistic. Smolder is incredibly loyal and would give his life for those he cares for. He is a Beast type with a Mutant class.",
-    "Campaigns": "Rise of the World Killers",
+    "Campaigns": [{"Name" : "Rise Of The World Killers"}, {"Name":"Eons"}],
     "Image": "/images/smolder.png",
     "Art_By": "Hexamis"
   },
@@ -50,7 +50,7 @@
     "Class": "Hunter",
     "Affiliation": "Autobot/Maximal",
     "Description": "FrostFang is a bot from the Maximal and Predacon colonies who is on the hunt for the group that kidnapped one of their politicians. She stands at 30 feet tall, though her horns technically make her a little bit taller. She can be a bit particular about showing herself off to the world, as she's ashamed of her rather bizarre frame and alt. mode, so she tends to wear a cloak when out and about. Her type is Beast, which is reflected in her alt. mode, and her class is a Hunter.",
-    "Campaigns": "First Stand Of The Wreckers",
+    "Campaigns": [{"Name":"First Stand Of The Wreckers"}, {"Name":"Eons"}],
     "Image": "/images/Frost_Fang.png",
     "Art_By": "Onyx"
   },
@@ -61,7 +61,7 @@
     "Class": "Scout/Prime",
     "Affiliation": "Autobot",
     "Description": "Spitfire is bold, a little brash, and quick to make friends, as well as defend them. It's easier for her to go with the flow, unless it's some outlandish scheme Zephyr has cooked up. Although Primus is her religion, she's not overly religious. Worked as a mechanic before getting drafted into the war as an Autobot, sometimes fixing up ships and other times in the front lines where she met her mentor Sidewinder. Also a Knockout simp, thinks no one knows, but everyone knows. 16ft, compact, and a scout!",
-    "Campaigns": "Rise Of The World Killers",
+    "Campaigns": [{"Name":"Rise Of The World Killers"}],
     "Image": "/images/spitfirePoster.png",
     "Art_By": "Hexamis"
   },
@@ -72,7 +72,7 @@
     "Class": "Scout/Prime",
     "Affiliation": "Autobot",
     "Description": "Scorchfire Prime is bold, a little brash, and quick to make friends, as well as defend them. It's easier for her to go with the flow, unless it's some outlandish scheme Zephyr has cooked up. Although Primus is her religion, she's not overly religious. Worked as a mechanic before getting drafted into the war as an Autobot, sometimes fixing up ships and other times in the front lines where she met her mentor Sidewinder. Also a Knockout simp, thinks no one knows, but everyone knows. 18 ft as a prime, compact, and a scout!",
-    "Campaigns": "Rise Of The World Killers",
+    "Campaigns": [{"Name" : "Rise Of The World Killers"}, {"Name":"Eons"}],
     "Image": "/images/Scorchfire_ArtByHexamis.png",
     "Art_By": "Hexamis"
   },
@@ -83,7 +83,7 @@
     "Class": "City Speaker",
     "Affiliation": "Autobot/Rescuebot",
     "Description": "Synthwave goes nowhere without her twin, Cross Summit. She loves to play music and one day hopes to open a club and DJ, but is currently working as a Rescue Bot! She's not great at it but tries her best! follows Amalgamous Prime, 22 ft, compact, and a city speaker.",
-    "Campaigns": "First Stand Of The Wreckers",
+    "Campaigns": [{"Name":"First Stand Of The Wreckers"}, {"Name":"Eons"}],
     "Image": "/images/synthwave.jpg",
     "Art_By": "Hexamis"
   },
@@ -94,7 +94,7 @@
     "Class": "Combiner",
     "Affiliation": "Autobot/Rescuebot",
     "Description": "Cross Summit is shy and will avoid combat at any means possible. He is very scared of heights due to past trauma with his lost third sibling. He is very close with his Twin Synthwave. Type is Compacted, Class Combiner, and is 22ft tall, his religion is Vector Prime.",
-    "Campaigns": "First Stand Of The Wreckers",
+    "Campaigns": [{"Name":"First Stand Of The Wreckers"}, {"Name":"Eons"}],
     "Image": "/images/Cross_Summit.png",
     "Art_By": "Onyx"
   },
@@ -105,7 +105,7 @@
     "Class": "Titan-Master",
     "Affiliation": "Decepticon",
     "Description": "Zephyr is an egotistical short bot that had once a prolific military contracting business, and is now a galactic bounty hunter. During the rise of the Decepticon revolution, he was part of a terrorist attack. The board members were quick to replace him and label him as dead. He is a follower of Liege Maximo, though not a fanatic. He is a titan-master, and when transformed into his head-mode he looks like Roadbuster. His coloration is all black with purple highlights; he takes advantage of his short stature to be as sneaky as possible.",
-    "Campaigns": "Rise Of The World Killers",
+    "Campaigns": [{"Name":"Rise Of The World Killers"}],
     "Image": "/images/zephyrPoster.png",
     "Art_By": "Hexamis"
   },
@@ -116,8 +116,42 @@
     "Class": "Brawler",
     "Affiliation": "Autobot",
     "Description": "Borg is a dinobot due to being too nice. He is a real big boi (standing 30ft tall) with an even bigger heart. He is a brawler, with a preference of using his fists over any weapon. He is a follower of Primus, and believes when he dies he gets to go to Dino heaven. He loves his friends and is willing to do whatever it takes to protect them...",
-    "Campaigns": "First Stand Of The Wreckers",
+    "Campaigns": [{"Name":"First Stand Of The Wreckers"}],
     "Image": "/images/Borg.png",
     "Art_By": "Hexamis"
+  },
+  {
+    "Name": "Mantyx",
+    "Player": "Clickbait",
+    "Alt_Mode": "F22 raptor earth Jet Mostly gray and black with some purple highlights",
+    "Class": "Scout",
+    "Affiliation": "Decepticon",
+    "Description": "A loyal Decepticon for many years, Mantyx was a member of the Seeker Armada under Commander Starscream. Mantyx was trained by Starscream in the arts of surveillance and espionage, and served as a go-to assassin for the Decepticons. Sent on a high-priority mission by Megatron, Mantyx journeyed off into the galaxy with his close friend Arromak.",
+    "Campaigns": [{"Name":"Rise Of The World Killers"},{"Name": "Eons"}],
+    "Image": "",
+    "Art_By": "Hexamis"
+  },
+  {
+    "Name": "Allegory",
+    "Player": "Clickbait",
+    "Alt_Mode": "Cybertronian Jet Mostly silver with some light blue highlights",
+    "Class": "Hunter",
+    "Affiliation": "Autobot",
+    "Description": "",
+    "Campaigns": [{"Name":"First Stand Of The Wreckers"},{"Name": "Eons"}],
+    "Image": "",
+    "Art_By": "Hexamis"
+  },
+  {
+    "Name": "Stormburst Convoy",
+    "Player": "Killobyte",
+    "Alt_Mode": "Cybertronian spaceship. Colors are orange with gray.",
+    "Class": "Prime",
+    "Affiliation": "",
+    "Description": "After losing his friends at the hand of shockwave he was recruited and saved by the Primus Vanguard. He joined the Vanguard as the Orange Prime of inner and personal change. He is a Prime, leader type, he is 22ft tall and follows solus prime.",
+    "Campaigns": [{"Name":"Eons"}],
+    "Image": "",
+    "Art_By": "Hexamis"
   }
+
 ]

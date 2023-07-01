@@ -1,4 +1,36 @@
-@page "/podcastguests"
+@page "/dndguests"
 @inject HttpClient Http
-<h1 class="text-center">Guests</h1>
+<h1 class="text-center">DND Guests</h1>
 
+<style>
+    h1.page-header {
+        font-size: 300%;
+        text-align: center;
+    }
+
+    .phase {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .row {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2%;
+        max-width: 90%;
+        font-size: large;
+        border-bottom: solid 3px black;
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        max-width: 90%;
+        max-height: 90%;
+        min-width: 70%;
+        min-height: 70%;
+        object-fit: contain;
+        margin-left: auto;
+    }
+
+</style>

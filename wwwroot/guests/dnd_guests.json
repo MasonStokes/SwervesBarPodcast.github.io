@@ -1,0 +1,59 @@
+[
+    {
+        "guestId": 1,
+        "name": "V",
+        "twitter": "https://twitter.com/megapurrv",
+        "fb": "",
+        "twitch":""
+        
+    },
+    {
+        "guestId": 2,
+        "name": "Hexamis",
+        "twitter": "https://twitter.com/HexamisArt",
+        "fb": "",
+        "twitch":""
+        
+    },
+    {
+        "guestId": 3,
+        "name": "Afterspark",
+        "dndIds": [],
+        "twitter": "https://twitter.com/AftersparkPod",
+        "fb": "",
+        "twitch":""
+        
+    },
+    {
+        "guestId": 4,
+        "name": "Trish",
+        "dndIds": ["Campaign 1", "Capiagn 2"],
+        "twitter": "https://twitter.com/ARogueTrish",
+        "fb": "",
+        "twitch":""
+    },
+    {
+        "guestId": 5,
+        "name": "",
+        "dndIds": [],
+        "twitter": "",
+        "fb": "",
+        "twitch":""
+    },
+    {
+        "guestId": 6,
+        "name": "",
+        "dndIds": [],
+        "twitter": "",
+        "fb": "",
+        "twitch":""
+    },
+    {
+        "guestId": 7,
+        "name": "",
+        "dndIds": [],
+        "twitter": "",
+        "fb": "",
+        "twitch":""
+    }
+]
